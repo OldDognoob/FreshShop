@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.navbar{
+    position: flex;
+    background-color: transparent;
+    width: 100%;
+    padding: 20px 0;
+    top: 0;
+    z-index: 100;
+    transition: .3s linear;
+    line-height: 50px;
+}
+.inner-width{
+    max-width: 1300px;
+    margin: auto;
+}
+.navbar .inner-width{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo i {
+    font-size: 50px;
+    color:#210808;
+    cursor:pointer;
+    margin-left: 35px;
+}
