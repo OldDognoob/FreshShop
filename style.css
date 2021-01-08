@@ -51,9 +51,10 @@
   .navbar-menu .link:hover::after{
     width: 100%;
   }
+  /*------------Home------------------*/
   #home{
     height: 100vh;
-    background-image: url("https://unsplash.com/photos/hjPmqPb9ALk");
+    background-image: url("img/Home1.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -105,4 +106,57 @@
   #home .content button:hover{
     background-color: #fff;
     color:#521515;
+  }
+  /*-----------About-----------------*/
+  #about{
+    height: 100vh;
+    background-image: url(about.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+  }
+  #about .container{
+    width: 50%;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  /*-----------Container-------------*/
+  .container h1{
+    text-align: center;
+    color:#521515;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+  }
+  .container h1 span{
+    color: #3f3f3f;
+  }
+  .container p{
+    color: #3f3f3f;
+    font-family: 'Raleway',sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 2px;
+  }
+  .container button{
+    margin-top: 40px;
+    padding: 15px 18px;
+    background-color: #3f3f3f;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .container button:hover{
+    background-color:#521515;
+    font-weight: 900;
   }
